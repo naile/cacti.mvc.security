@@ -72,9 +72,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filter\AntiForgeryTokenFilter.cs" />
-    <Compile Include="Filter\DoNotResetAuthCookieAttribute.cs" />
-    <Compile Include="Filter\RequireHttpsAttribute.cs" />
+    <Compile Include="Attribute\AntiForgeryTokenFilter.cs" />
+    <Compile Include="Attribute\DoNotResetAuthCookieAttribute.cs" />
+    <Compile Include="Attribute\HSTSHeaderAttribute.cs" />
+    <Compile Include="Attribute\RequireHttpsAttribute.cs" />
+    <Compile Include="Module\RemoveHeadersHttpModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
